@@ -1,0 +1,33 @@
+.courses-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.course-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.left-section, .right-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.service-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  max-height: 700px;
+}
+
+p {
+  letter-spacing: 1px;
+  word-spacing: 0.2em;
+}
+
