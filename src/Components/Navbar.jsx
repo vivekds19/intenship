@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Clogo from '../Assets/Company-logo.png';
 import '../Styling/Navbar.css';
+import { Link } from 'react-router-dom'; 
 
 export default function Navbar() {
   const [visible, setVisible] = useState(true);
@@ -36,6 +37,9 @@ export default function Navbar() {
           <a href="#home-section">Home</a>
           <a href="#services-section">Services</a>
           <a href="#course-section">Course</a>
+          
+          <Link to="/gallery">Gallery</Link>
+          <Link to="/products">Products</Link>
           <a href="#about-section">About</a>
           <a href="#connectwithus-section">Contact Us</a>
         </div>

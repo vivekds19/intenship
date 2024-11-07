@@ -1,4 +1,4 @@
-const servicesData = [
+const productsData = [
     {
       title: "Web Development",
       description: "Our web development services focus on building responsive, engaging websites that elevate your brand's online presence and provide scalable solutions to meet business needs. We create optimized web platforms that deliver seamless user experiences, improve performance, and maximize conversion rates. Our expertise ensures your website remains secure, fast, and adaptable to the latest technological trends, giving your business the competitive edge it needs in a rapidly evolving digital landscape.",
@@ -37,5 +37,5 @@ const servicesData = [
     }
   ];
   
-  export default servicesData;
+  export default productsData;
   

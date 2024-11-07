@@ -19,18 +19,18 @@ export default function Courses() {
       imageUrl: "https://res.cloudinary.com/dsssueldg/image/upload/v1729475511/WhatsApp_Image_2024-10-20_at_8.21.09_PM_qooe4b.jpg",
     },
     {
-      title: "Web Development",
-      description: "We build responsive and scalable websites tailored to your business needs.",
+      title: "Cyber Security",
+      description: "cybersecurity services protect your digital assets from evolving threats.",
       imageUrl: "https://res.cloudinary.com/dsssueldg/image/upload/v1729476467/WhatsApp_Image_2024-10-20_at_8.14.57_PM_1_zfzpql.jpg",
     },
     {
-      title: "App Development",
-      description: "Our team creates powerful mobile apps for Android and IOS that work seamlessly across platforms.",
+      title: "AI & Machine Learning",
+      description: "We offer AI and machine learning solutions that automate processes, enhance decision-making.",
       imageUrl: "https://res.cloudinary.com/dsssueldg/image/upload/v1729476267/WhatsApp_Image_2024-10-20_at_8.14.57_PM_xspiu6.jpg",
     },
     {
-      title: "Cloud Computing",
-      description: "Boost your online presence and reach more customers with our expert services.",
+      title: "Data Science",
+      description: "data science services empower businesses to analyze data effectively.",
       imageUrl: "https://res.cloudinary.com/dsssueldg/image/upload/v1729475511/WhatsApp_Image_2024-10-20_at_8.21.09_PM_qooe4b.jpg",
     },
   ];
@@ -51,7 +51,7 @@ export default function Courses() {
   };
 
   return (
-    <section className="courses-section">
+    <section id="course-section">
       <div className="courses-container">
         <h1>Courses</h1>
         <p>Learn What Matters: Job-Ready Courses from SS Mentor</p>
