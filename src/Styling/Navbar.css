@@ -2,7 +2,6 @@
 
 html {
     scroll-behavior: smooth; /* Enable smooth scrolling */
-    
 }
 
 div {
@@ -62,9 +61,30 @@ div {
     letter-spacing: 1px;
     font-size: 25px;
     margin: 0;
-    color: #000;
     line-height: 30px;
     font-weight: 900;
+    overflow: hidden; /* Hide overflowing text during animation */
+    display: inline-block; /* Ensure animation applies to inline content */
+    white-space: nowrap; /* Prevent wrapping */
+    color: transparent; /* Start with transparent text */
+    animation: slideInLeft 5s ease forwards; /* Add animation */
+}
+
+/* Keyframes for the slide-in effect from left to right with black color */
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%); /* Start off-screen to the left */
+        opacity: 0; /* Fully transparent */
+        color: transparent; /* Transparent text */
+    }
+    50% {
+        color: gray; /* Intermediate gray color */
+    }
+    100% {
+        transform: translateX(0); /* Normal position */
+        opacity: 1; /* Fully visible */
+        color: black; /* Final black color */
+    }
 }
 
 .text-content p {
